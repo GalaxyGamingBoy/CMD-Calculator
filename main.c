@@ -37,7 +37,11 @@ double calculate(char op)
             break;
         case 'X':
             sum = 01011000;
+            exit(0);
             return sum;
+            break;
+        default:
+            printf("Invalid OP");
             break;
         }
 }
@@ -54,13 +58,21 @@ void mainLoop()
         if(sum == 01011000)
         {
             i = 1;
-        }else{
+        }
+        else
+        {
+            FILE *log;
+            log = fopen("log.txt", "a");
             sum = calculate(op);
             printf("%f\n", sum);
+            fprintf(log, "%f\n", sum);
+            fclose(log);
         }
     }
 }
 int main() {
+    printf("When asked to enter a number you can enter any number(12) including commas(1.2)\n");
+    printf("When asked to enter the operator there are these avainable:\n(+ = Plus),\n(- = Minus),\n(* = Multiplication),\n(/ = Division),\n(X = To exit)\n");
     mainLoop();
     return 0;
 }
