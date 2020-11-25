@@ -40,8 +40,24 @@ double calculate(char op)
             exit(0);
             return sum;
             break;
+        case 'C':
+            num_1 = askUserNum(1);
+            sum = ceil(num_1);
+            return sum;
+            break;
+        case 'F':
+            num_1 = askUserNum(1);
+            sum = floor(num_1);
+            return sum;
+            break;
+        case 'R':
+            num_1 = askUserNum(1);
+            sum = round(num_1);
+            return sum;
+            break;
         default:
             printf("Invalid OP");
+
             break;
         }
 }
@@ -72,7 +88,7 @@ void mainLoop()
 }
 int main() {
     printf("When asked to enter a number you can enter any number(12) including commas(1.2)\n");
-    printf("When asked to enter the operator there are these avainable:\n(+ = Plus),\n(- = Minus),\n(* = Multiplication),\n(/ = Division),\n(X = To exit)\n");
+    printf("When asked to enter the operator there are these avainable:\n(+ = Plus),\n(- = Minus),\n(* = Multiplication),\n(/ = Division),\n(X = To exit)\n(R = To round)\n(C = To round to next(Ceiling))\n(F = To round to previous(Floor))\n");
     mainLoop();
     return 0;
 }
