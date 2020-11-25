@@ -4,9 +4,13 @@
  Built using the C Language
 # Instruction how to download
  1. Download the code
+ ***NEW WAY AVAINABLE READ TO END***
  2. A compiled version can be found on /bin/debug
  3. You can run "CMD Calculator.exe" without any problems, it has been chekced with VirusTotal(https://www.virustotal.com/gui/file/cde192686472b568399fac8069ed1089114cfe92d85b691073fbf11c20a98a69/detection)
  3b. If you have seen the VirusTotal link it has been detected by 3 antivirus because it is an executable command line file.
  3c. If you compile it yourself using gcc the same will happen with my source code.
  3d. If you are worry of any viruses compile the source code and check it for any viruses.
-
+ ----------------
+ 1. Go in the releases tab
+ 2. And download Setup.exe
+ 3. Run and follow the instructions
