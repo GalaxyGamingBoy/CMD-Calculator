@@ -2,6 +2,7 @@
  You are free to use the calculator without any charges.
  This calculator is built by me(Galaxy)
  Built using the C Language
+ ----------------
 # Instruction how to download
  1. Download the code
  ***NEW WAY AVAINABLE READ TO END***
@@ -11,6 +12,7 @@
  3c. If you compile it yourself using gcc the same will happen with my source code.
  3d. If you are worry of any viruses compile the source code and check it for any viruses.
  ----------------
+ # Using the installer
  1. Go in the releases tab
  2. And download Setup.exe
  3. Run and follow the instructions
